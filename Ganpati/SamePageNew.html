@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GanpatiTechnocraft - OneStopSolution</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a3d62;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #074173;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('elec.jpg') no-repeat center center/cover;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    section {
+      padding: 2rem;
+      display: none;
+    }
+    section.active {
+      display: block;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    footer {
+      background-color: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="head.jpg" alt="Logo">
+    <h1>Ganpati Technocraft</h1>
+    <p>Your Trusted Electrical, Mechanical and Rubber items supplier</p>
+  </header>
+
+  <nav>
+    
+    <a onclick="showSection('home')">Home</a>
+    <a a onclick="showSection('product1')">Products</a>
+    <a a onclick="showSection('client1')">Clients</a>
+    <a a onclick="showSection('authorization1')">Authorization</a>
+    <a a onclick="showSection('contact1')">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Quality Items at Affordable Prices</h1>
+  </section>
+
+  <section class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card">
+       
+        <h3>Electrical Items</h3>
+        <p>Power Contactors,Relays, Switches, Circuit breakers, Switch gears, Jointing kits, etc   .</p>
+      </div>
+      <div class="card">
+        
+        <h3>Mechanical Items</h3>
+        <p>Hoists, Pumps, Gear box, Compressor, Valves, etc.</p>
+      </div>
+      <div class="card">
+        
+        <h3>Miscellinious Items</h3>
+        <p>Transmission Equipments, Wire ropes, Seal kits,Rubber hose,Vibration switches, pressure Transmitter, etc.</p>
+      </div>
+    </div>
+  </section>
+
+<main>
+    <section id="home" class="active">
+      <h1>Company Profile</h1>
+<h>
+<p style="color: black;">
+<b>We’re engaged in trading, retailing & supplying industrial items, equipments & spares etc 
+in the field of Electrical & Mechanical Engineering sector. These products are used widely 
+in various industries such as Sugar, chemical, paper, Steel, Cement, thermal power plants 
+and engineering. The firm is governed & headed by a well-qualified Electrical Engineer 
+Mr. Manmohan Sharma (BE-Electrical, M. Tech. BITS, Pilani). He is supported by a team of 
+electrical & mechanical engineers working in different fields. The firm have good financial 
+capabilities and doing his business transactions without having any credit liabilities to 
+the market till date. The administrative office of the firm is situated at prime location 
+of the city at 20A, Govindam Market, Silver Jublee Road, Sikar-332001 district headquarter 
+near capital Jaipur in Rajasthan. <br>
+We’re trying to offer products sourced from known names of the industry, chosen 
+on the ground of their infrastructure, team, company policy as well as customer centric approach. 
+Our team comprises personnel with unbeatable skills and committed approach having engineering expertise.
+The firm is doing his businesses in government as well as private concern accordingly.</b></p>
+</h1>  
+      
+    </section>
+    <section id="product1">
+      <h1>Iteams we Deal</h1>
+      <p style="color: black;">
+<div class="product1">
+            
+        <h2>Electrical Equipment’s and Items</h2>
+            <h3>1.	Screw Compressor (Sales and Repair)</h3>
+	    <h3>2.	EOT Hoist (Sales and Repair)</h3>
+	    <h3>3.	Industrial Electrical Motors</h3>
+            <h3>4.	HP and LP Pumps</h3>
+            <h3>5.	Fuses</h3>
+	    <h3>6.	MCB and MCCB</h3>
+	    <h3>7.	HT and LT Jointing Kits</h3>
+	    <h3>8.	Relays</h3>
+	    <h3>9.	Protection Transformers</h3>
+	    <h3>10.	All different types of Electrical Equipment’s used in Thermal Power plant.</h3>
+        
+        <!-- Add more electrical products as needed -->
+   
+
+
+    <br>  </br>
+    
+        <h2>Mechanical Equipment’s and Items</h2>
+        <div class="product">
+            <!--<img src="mechanical-product.jpg" alt="Mechanical Product">-->
+            <h3>1.	Solenoid Valves</h3>
+	    <h3>2.	Bearings</h3>
+	    <h3>3.	Lugs</h3>
+            <h3>4.	Mechanical Valves (Puppet valve, dome valve, globe valve etc.)</h3>
+            <h3>5.	Oil Seals</h3>
+	    
+            
+        </div>
+
+
+</p>
+  
+
+    </section>
+
+    <section id="client1">
+      <h1>Clients we Serve</h1>
+      <p style="color: black;">
+<div class="client1">
+       <h1>Client List</h1>
+     
+            <h3>1.	Suratgarh Super Thermal Power Station, Suratgarh, Rajasthan. (RRVUNL)</h3>
+	    <h3>2.	Chhabra Super Critical Thermal Power Plant, Chhabra, Rajasthan (RRVUNL).</h3>
+	    <h3>3.	Ramgarh Gas Cycle Thermal Power Plant, Ramgarh, Jaisalmer, Rajasthan (RRVUNL).</h3>
+            <h3>4.	Kalisindh Thermal Power Project, Jhalawar, Rajasthan</h3>
+            <h3>5.	M/s Brothers Engineering & Erectors Limited, Vijayawada (NLC India, Barsingsar project, Bikaner Rajasthan site)</h3>
+	    <h3>6.	M/s NPR Solutions (P) Ltd., Ghaziabad</h3>
+	    <h3>7.	Adani Transmissions</h3>
+	    <h3>8.	M/s AI Tincure, Faridabad</h3>
+	    <h3>9.	M/s Shrishti Enterprises, Suratgarh, SGNR</h3>
+	    <h3>	Many More....</h3>
+	    
+            
+        </div>
+
+
+</p>
+    </section>
+
+
+    <section id="authorization1">
+      <h1>Companies Authorization</h1>
+      <p style="color: black;">
+<div class="authorization1">
+            
+           <h3> 1.	M/s Globe Overseas (P) Ltd., New Delhi (EOT & Lifting Tools).</h3>
+	   <h3> 2.	M/s Ganesh Engineering Co., Ahmedabad (EOT Hoists).</h3>
+	   <h3> 3.	M/s Gear World Technology, Rajkot (Gear Box).</h3>
+	   <h3> 4.	M/s J. S Gear, Ahmedabad (Gear Box).</h3>
+	   <h3> 5.	M/s Jyoti Air Tech Systems, Ahmedabad (Twin & Trilobe Blowers).</h3>
+	   <h3> 6.	M/s Beta Maschinenfabrik (P) Ltd., G. Noida (Twin & Trilobe Blowers).</h3> 
+	   <h3> 7.	M/s Fluidtecq Pneumatics (P) Ltd., Mumbai (Solenoid valves, Pneumatic cylinders).</h3>
+	   <h3> 8.	M/s Chemica Pumps & Filtration, Saharanpur (UP).</h3>
+	   <h3> 9.	M/s Rotech Equipments (P) Ltd., Ghaziabad (Screw air Compressors).</h3>
+	   <h3> 10.	 M/s Gurukrupa Engineering, Pune. (Loading Spout Bellows).</h3>
+	   <h3> 11.	M/s Sequana Cooling Towers, Meerut (UP) (Vibration Switches).</h3>
+	   <h3> 12.	 M/s Gulmohar Fil-Tech, Indore (Bag Filter & Cage).</h3>
+	   <h3> 13.	 M/s UPS Lakshmi Precision Screws, Rohtak, HR (HT Fasteners).</h3>
+
+	    
+            
+        </div>
+
+
+ </p>
+    </section>
+
+
+    <section id="contact1">
+      <h1>Contact Us</h1>
+    
+   <li><strong>Company Name:</strong> Ganpati Technocraft.</li>
+  <li><strong>Address:</strong> 20A, Govindam Market, Silver Jublee Road, Sikar-332001, India</li>
+  <li><strong>Phone:</strong> +91 78776 98169</li>
+  <li><strong>Email:</strong> ganpatitechnocraft@gmail.com</li>
+  <li><strong>Working Hours:</strong> Mon - Fri, 9:00 AM - 6:00 PM</li>
+  </section>
+  
+  </main>
+
+  <script>
+    function showSection(sectionId) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+
+  <footer>
+    <p>Contact us: +91 78776 98169 | ganpatitechnocraft@gmail.com</p>
+    <p>20A, Govindam Market, Silver Jublee Road, Sikar, India</p>
+    <p>&copy; 2025 ganpatitechnocraft. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
